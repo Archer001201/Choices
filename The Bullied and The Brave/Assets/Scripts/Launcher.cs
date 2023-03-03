@@ -25,7 +25,6 @@ public class Launcher : MonoBehaviourPunCallbacks
     public override void OnJoinedRoom()
     {
         base.OnJoinedRoom();
-
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
             PhotonNetwork.Instantiate("Player_1", new Vector3(0, 0, 0), Quaternion.identity, 0);
         else if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
