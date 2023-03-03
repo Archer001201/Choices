@@ -391,6 +391,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player_2
       objectReference: {fileID: 0}
+    - target: {fileID: 8021993971010896977, guid: 118c15bf89f404f77a0440f11b0ca6fd, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[0].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021993971010896977, guid: 118c15bf89f404f77a0440f11b0ca6fd, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[1].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021993971010896977, guid: 118c15bf89f404f77a0440f11b0ca6fd, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[2].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021993971010896977, guid: 118c15bf89f404f77a0440f11b0ca6fd, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[3].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8021993971010896977, guid: 118c15bf89f404f77a0440f11b0ca6fd, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[4].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 8618462891490268696, guid: 118c15bf89f404f77a0440f11b0ca6fd, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -449,6 +469,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 994048224}
     m_Modifications:
+    - target: {fileID: 1975429778187034717, guid: 23d2092b67e494a64bcb0005331b1cb8, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[0].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975429778187034717, guid: 23d2092b67e494a64bcb0005331b1cb8, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[1].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975429778187034717, guid: 23d2092b67e494a64bcb0005331b1cb8, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[2].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975429778187034717, guid: 23d2092b67e494a64bcb0005331b1cb8, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[3].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1975429778187034717, guid: 23d2092b67e494a64bcb0005331b1cb8, type: 3}
+      propertyPath: m_SynchronizeParameters.Array.data[4].SynchronizeType
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2681689598238974069, guid: 23d2092b67e494a64bcb0005331b1cb8, type: 3}
       propertyPath: m_RootOrder
       value: 0
