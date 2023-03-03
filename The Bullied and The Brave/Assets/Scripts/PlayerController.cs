@@ -11,9 +11,12 @@ public class PlayerController : MonoBehaviourPun
     private float inputX, inputY;
     private Vector2 movementInput;
 
+    private Animator anim;
+
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -26,6 +29,7 @@ public class PlayerController : MonoBehaviourPun
         if (!photonView.IsMine && PhotonNetwork.IsConnected)
             return;
         PlayerInput();
+        switchAnim();
     }
 
     private void PlayerInput()
@@ -44,5 +48,46 @@ public class PlayerController : MonoBehaviourPun
     private void Movement()
     {
         rb.MovePosition(rb.position + movementInput * speed * Time.deltaTime);
+    }
+
+    private void switchAnim()
+    {
+        if (inputX != 0 || inputY != 0)
+        {
+            anim.SetBool("Move", true);
+        }
+        else anim.SetBool("Move", false);
+
+        if (inputX > 0)
+        {
+            anim.SetBool("Right", true);
+            anim.SetBool("Left", false);
+        }
+        else if (inputX < 0)
+        {
+            anim.SetBool("Right", false);
+            anim.SetBool("Left", true);
+        }
+        else
+        {
+            anim.SetBool("Right", false);
+            anim.SetBool("Left", false);
+        }
+
+        if (inputY > 0)
+        {
+            anim.SetBool("Down", false);
+            anim.SetBool("Up", true);
+        }
+        else if (inputY < 0)
+        {
+            anim.SetBool("Down", true);
+            anim.SetBool("Up", false);
+        }
+        else
+        {
+            anim.SetBool("Down", false);
+            anim.SetBool("Up", false);
+        }
     }
 }
