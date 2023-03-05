@@ -1,18 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class DialogueUI : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public GameObject dialogueBox;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public TextMeshProUGUI dialogueText;
+
+    public Image faceLeft, faceRight;
+
+    public TextMeshProUGUI nameLeft, nameRight;
 }

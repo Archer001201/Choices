@@ -8,7 +8,7 @@ public class CemaraController : MonoBehaviour
 
     private void Start()
     {
-        timer = 90;
+        timer = 120;
     }
 
     private void FixedUpdate()

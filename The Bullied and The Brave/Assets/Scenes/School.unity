@@ -813,6 +813,7 @@ GameObject:
   - component: {fileID: 845738771}
   - component: {fileID: 845738770}
   - component: {fileID: 845738769}
+  - component: {fileID: 845738773}
   m_Layer: 5
   m_Name: Dialouge Canvas
   m_TagString: Untagged
@@ -902,6 +903,24 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &845738773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 845738768}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78e132af5a063473d87138c7b15f182a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueBox: {fileID: 627656984}
+  dialogueText: {fileID: 1464473874}
+  faceLeft: {fileID: 2087939096}
+  faceRight: {fileID: 1447951905}
+  nameLeft: {fileID: 583967812}
+  nameRight: {fileID: 1116250736}
 --- !u!1 &994048223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,6 +1099,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1167120163}
   - component: {fileID: 1167120162}
+  - component: {fileID: 1167120164}
   m_Layer: 0
   m_Name: "\u9738\u51CC\u80051_1"
   m_TagString: Untagged
@@ -1154,6 +1174,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1167120164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167120161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 712ea66b59ed44421b76d99e100fd0fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueList:
+  - faceIamge: {fileID: -731396362, guid: 59e223c562b1f414090fe74dec4551d6, type: 3}
+    onLeft: 0
+    name: 
+    dialogueText: 
+    hasToPause: 0
+    isDone: 0
 --- !u!1 &1357700822
 GameObject:
   m_ObjectHideFlags: 0
