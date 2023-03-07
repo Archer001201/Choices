@@ -1302,7 +1302,7 @@ MonoBehaviour:
     onLeft: 1
     name: A
     dialogueText: 'PUN got region list. Going to ping minimum regions, based on this
-      previous result summary: usw;25;asia,au,cae,eu,in,jp,kr,ru,rue,sa,tr,us,usw,za'
+      previous result '
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -1311,8 +1311,8 @@ MonoBehaviour:
   - faceImage: {fileID: -1111962993, guid: 6f45b9d8b442d40d58898b8f69a03071, type: 3}
     onLeft: 0
     name: B
-    dialogueText: PUN is in development mode (development build). As the 'dev region'
-      is not empty (usw) it overrides the found best region. See PhotonServerSettings.
+    dialogueText: 'PUN is in development mode (development build). As the ''dev region''
+      is not empty (usw)  '
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -1321,8 +1321,18 @@ MonoBehaviour:
   - faceImage: {fileID: -816341834, guid: 47e70425d4d4a490f877bdd546099fec, type: 3}
     onLeft: 0
     name: B
-    dialogueText: PUN is in development mode (development build). As the 'dev region'
-      is not empty (usw) it overrides the found best region. See PhotonServerSettings.
+    dialogueText: 'PUN is in development mode (development build). As the ''dev region''
+      is not empty (usw)  '
+    hasToPause: 0
+    isDone: 0
+    afterTalkEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - faceImage: {fileID: -731396362, guid: 59e223c562b1f414090fe74dec4551d6, type: 3}
+    onLeft: 1
+    name: A
+    dialogueText: 'PUN is in development mode (development build). As the ''dev region''
+      is not empty (usw)  '
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -1625,10 +1635,10 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: d7cffddcbc0cc8f4ebe6e28eb9804082, type: 3}
-    m_FontSize: 36
+    m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 2
     m_MaxSize: 40
     m_Alignment: 0
     m_AlignByGeometry: 0
