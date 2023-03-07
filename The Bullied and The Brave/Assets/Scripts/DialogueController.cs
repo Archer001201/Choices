@@ -69,13 +69,13 @@ namespace Choices.Dialogue
             if (dailogueStack.TryPop(out DialoguePiece result))
             {
                 //传到UI显示对话
-                //EventHandler.CallShowDialogueEvent(result);
+                EventHandler.CallShowDialogueEvent(result);
                 yield return new WaitUntil(() => result.isDone);
                 isTalking = false;
             }
             else
             {
-                //EventHandler.CallShowDialogueEvent(null);
+                EventHandler.CallShowDialogueEvent(null);
                 FillDialogueStack();
                 isTalking = false;
 
