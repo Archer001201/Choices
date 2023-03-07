@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Choices.Dialogue
 {
@@ -12,7 +13,8 @@ namespace Choices.Dialogue
         [TextArea]
         public string dialogueText;
         public bool hasToPause;
-        public bool isDone;
+        [HideInInspector] public bool isDone;
+        public UnityEvent afterTalkEvent;
     }
 }
 
