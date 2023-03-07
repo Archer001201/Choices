@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Events;
 
+/*
+ * 挂载到事件物体上的脚本
+ * 设置事件的对话详情（角色头像，名字，对话内容）
+ * 事件必须要有碰撞盒
+ */
 namespace Choices.Dialogue
 {
     //[RequireComponent(typeof(NPCMovement))]
@@ -23,22 +28,6 @@ namespace Choices.Dialogue
             uiSign = transform.GetChild(0).gameObject;
             FillDialogueStack();
         }
-
-        //private void OnTriggerEnter2D(Collider2D other)
-        //{
-        //    if (other.CompareTag("Player"))
-        //    {
-        //        canTalk = true;
-        //    }
-        //}
-
-        //private void OnTriggerExit2D(Collider2D other)
-        //{
-        //    if (other.CompareTag("Player"))
-        //    {
-        //        canTalk = false;
-        //    }
-        //}
 
         private void Update()
         {

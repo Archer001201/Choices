@@ -6,6 +6,9 @@ using TMPro;
 using Choices.Dialogue;
 using DG.Tweening;
 
+/*
+ * 此脚本挂载在Dialogue Canvas上以获取对话详情以及更新对话UI
+ */
 public class DialogueUI : MonoBehaviour
 {
     public GameObject dialogueBox;
