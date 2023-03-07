@@ -1209,7 +1209,7 @@ GameObject:
   - component: {fileID: 1167120166}
   m_Layer: 0
   m_Name: Event000
-  m_TagString: Untagged
+  m_TagString: Event
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1300,8 +1300,9 @@ MonoBehaviour:
   dialogueList:
   - faceImage: {fileID: -731396362, guid: 59e223c562b1f414090fe74dec4551d6, type: 3}
     onLeft: 1
-    name: dasd
-    dialogueText: dasd
+    name: A
+    dialogueText: 'PUN got region list. Going to ping minimum regions, based on this
+      previous result summary: usw;25;asia,au,cae,eu,in,jp,kr,ru,rue,sa,tr,us,usw,za'
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -1309,8 +1310,19 @@ MonoBehaviour:
         m_Calls: []
   - faceImage: {fileID: -1111962993, guid: 6f45b9d8b442d40d58898b8f69a03071, type: 3}
     onLeft: 0
-    name: dwad
-    dialogueText: dsadasf
+    name: B
+    dialogueText: PUN is in development mode (development build). As the 'dev region'
+      is not empty (usw) it overrides the found best region. See PhotonServerSettings.
+    hasToPause: 0
+    isDone: 0
+    afterTalkEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - faceImage: {fileID: -816341834, guid: 47e70425d4d4a490f877bdd546099fec, type: 3}
+    onLeft: 0
+    name: B
+    dialogueText: PUN is in development mode (development build). As the 'dev region'
+      is not empty (usw) it overrides the found best region. See PhotonServerSettings.
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -1472,7 +1484,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 400, y: 0}
+  m_AnchoredPosition: {x: 410, y: 0}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1447951905
@@ -1902,7 +1914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -400, y: 0}
+  m_AnchoredPosition: {x: -410, y: 0}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2087939096

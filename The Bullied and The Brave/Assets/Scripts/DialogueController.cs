@@ -46,7 +46,7 @@ namespace Choices.Dialogue
 
             if (canTalk & Input.GetKeyDown(KeyCode.Space) && !isTalking)
             {
-                StartCoroutine(DailogueRoutine());
+                StartCoroutine(DialogueRoutine());
             }
         }
 
@@ -63,13 +63,14 @@ namespace Choices.Dialogue
             }
         }
 
-        private IEnumerator DailogueRoutine()
+        private IEnumerator DialogueRoutine()
         {
             isTalking = true;
             if (dailogueStack.TryPop(out DialoguePiece result))
             {
                 //传到UI显示对话
                 EventHandler.CallShowDialogueEvent(result);
+                
                 yield return new WaitUntil(() => result.isDone);
                 isTalking = false;
             }
@@ -83,7 +84,7 @@ namespace Choices.Dialogue
             }
         }
 
-        public void setCanTalk(bool result)
+        public void SetCanTalk(bool result)
         {
             canTalk = result;
         }

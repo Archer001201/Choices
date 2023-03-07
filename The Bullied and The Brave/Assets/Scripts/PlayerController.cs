@@ -12,11 +12,13 @@ public class PlayerController : MonoBehaviourPun
     private Vector2 movementInput;
 
     private Animator anim;
+    private GameObject dialogguePanel;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        dialogguePanel = GameObject.Find("Dialouge Canvas").transform.GetChild(0).gameObject;
     }
 
     private void FixedUpdate()
@@ -28,7 +30,7 @@ public class PlayerController : MonoBehaviourPun
     {
         if (!photonView.IsMine && PhotonNetwork.IsConnected)
             return;
-        PlayerInput();
+        if (!dialogguePanel.activeSelf) PlayerInput();
         switchAnim();
     }
 

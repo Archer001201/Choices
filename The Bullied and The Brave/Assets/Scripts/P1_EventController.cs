@@ -21,7 +21,7 @@ public class P1_EventController : MonoBehaviour
     {
         if (collision.gameObject.name == "Event000")
         {
-            collision.GetComponent<DialogueController>().setCanTalk(true);
+            collision.GetComponent<DialogueController>().SetCanTalk(true);
         }
     }
 
@@ -29,7 +29,9 @@ public class P1_EventController : MonoBehaviour
     {
         if (collision.gameObject.name == "Event000")
         {
-            collision.GetComponent<DialogueController>().setCanTalk(false);
+            collision.GetComponent<DialogueController>().SetCanTalk(false);
         }
     }
+
+    
 }

@@ -44,17 +44,20 @@ public class DialogueUI : MonoBehaviour
 
             if (piece.name != string.Empty)
             {
+                faceLeft.gameObject.SetActive(true);
+                faceRight.gameObject.SetActive(true);
+                
                 if (piece.onLeft)
                 {
-                    faceRight.gameObject.SetActive(false);
-                    faceLeft.gameObject.SetActive(true);
+                    faceLeft.gameObject.transform.localScale = new Vector3(-1.25f, 1.25f, 1);
+                    faceRight.gameObject.transform.localScale = new Vector3(1, 1, 1);
                     faceLeft.sprite = piece.faceImage;
                     nameLeft.text = piece.name;
                 }
                 else
                 {
-                    faceRight.gameObject.SetActive(true);
-                    faceLeft.gameObject.SetActive(false);
+                    faceLeft.gameObject.transform.localScale = new Vector3(-1, 1, 1);
+                    faceRight.gameObject.transform.localScale = new Vector3(1.25f, 1.25f, 1);
                     faceRight.sprite = piece.faceImage;
                     nameRight.text = piece.name;
                 }
@@ -66,7 +69,7 @@ public class DialogueUI : MonoBehaviour
                 nameLeft.gameObject.SetActive(false);
                 nameRight.gameObject.SetActive(false);
             }
-            yield return dialogueText.DOText(piece.dialogueText, 0.5f).WaitForCompletion();
+            yield return dialogueText.DOText(piece.dialogueText, 1f).WaitForCompletion();
 
             piece.isDone = true;
 
