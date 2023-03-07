@@ -6,7 +6,7 @@ using UnityEngine.Events;
 /*
  * 挂载到事件物体上的脚本
  * 设置事件的对话详情（角色头像，名字，对话内容）
- * 事件必须要有碰撞盒
+ * 事件必须要有碰撞盒（一个事件触发范围碰撞盒，一个npc自身的碰撞盒）
  */
 namespace Choices.Dialogue
 {
