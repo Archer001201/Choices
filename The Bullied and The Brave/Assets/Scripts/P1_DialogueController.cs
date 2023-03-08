@@ -33,7 +33,7 @@ namespace Choices.Dialogue
         {
             uiSign.SetActive(canTalk);
 
-            if (canTalk & Input.GetKeyDown(KeyCode.Space) && !isTalking)
+            if (canTalk && Input.GetKeyDown(KeyCode.Space) && !isTalking)
             {
                 StartCoroutine(DialogueRoutine());
             }

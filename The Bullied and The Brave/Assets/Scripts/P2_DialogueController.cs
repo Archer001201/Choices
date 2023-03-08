@@ -25,7 +25,7 @@ namespace Choices.Dialogue
         private GameObject uiSign;
         private void Awake()
         {
-            uiSign = transform.GetChild(0).gameObject;
+            uiSign = transform.GetChild(1).gameObject;
             FillDialogueStack();
         }
 
