@@ -24,11 +24,17 @@ public class P2_EventController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        if (collision.gameObject.name == "Event000")
+        {
+            collision.GetComponent<P2_DialogueController>().SetCanTalk(true);
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-
+        if (collision.gameObject.name == "Event000")
+        {
+            collision.GetComponent<P2_DialogueController>().SetCanTalk(false);
+        }
     }
 }

@@ -1205,8 +1205,9 @@ GameObject:
   - component: {fileID: 1167120163}
   - component: {fileID: 1167120162}
   - component: {fileID: 1167120165}
-  - component: {fileID: 1167120164}
   - component: {fileID: 1167120166}
+  - component: {fileID: 1167120164}
+  - component: {fileID: 1167120167}
   m_Layer: 0
   m_Name: Event000
   m_TagString: Event
@@ -1390,6 +1391,40 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.6875, y: 0.1917761}
   m_EdgeRadius: 0
+--- !u!114 &1167120167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167120161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f2969569c6149118c2c5dec1e880a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnFinishEvent:
+    m_PersistentCalls:
+      m_Calls: []
+  dialogueList:
+  - faceImage: {fileID: -1111962993, guid: 6f45b9d8b442d40d58898b8f69a03071, type: 3}
+    onLeft: 0
+    name: aaa
+    dialogueText: aaaaaaa
+    hasToPause: 0
+    isDone: 0
+    afterTalkEvent:
+      m_PersistentCalls:
+        m_Calls: []
+  - faceImage: {fileID: -318452301, guid: f1b143b429199482289f0758dba8834a, type: 3}
+    onLeft: 1
+    name: bbb
+    dialogueText: bbbbb
+    hasToPause: 0
+    isDone: 0
+    afterTalkEvent:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &1357700822
 GameObject:
   m_ObjectHideFlags: 0
