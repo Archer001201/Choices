@@ -20,7 +20,7 @@ namespace Choices.Dialogue
 
         private Stack<DialoguePiece> dailogueStack;
 
-        private bool canTalk;
+        public bool canTalk;
         private bool isTalking;
         private GameObject uiSign;
         private void Awake()
@@ -71,11 +71,6 @@ namespace Choices.Dialogue
 
                 OnFinishEvent?.Invoke();
             }
-        }
-
-        public void SetCanTalk(bool result)
-        {
-            canTalk = result;
         }
     }
 }

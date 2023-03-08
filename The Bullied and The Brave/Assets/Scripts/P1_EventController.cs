@@ -13,7 +13,7 @@ public class P1_EventController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -24,17 +24,30 @@ public class P1_EventController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Event000")
+        if (collision.gameObject.CompareTag("Event"))
         {
-            collision.GetComponent<P1_DialogueController>().SetCanTalk(true);
+            collision.GetComponent<P1_DialogueController>().enabled = true;
+            collision.GetComponent<P1_DialogueController>().canTalk = true;
         }
+
+        //if (collision.gameObject.name == "Event000")
+        //{
+        //    collision.GetComponent<P1_DialogueController>().SetCanTalk(true);
+        //}
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Event000")
+        //if (collision.gameObject.name == "Event000")
+        //{
+        //    collision.GetComponent<P1_DialogueController>().SetCanTalk(false);
+        //}
+
+        if (collision.gameObject.CompareTag("Event"))
         {
-            collision.GetComponent<P1_DialogueController>().SetCanTalk(false);
+            collision.GetComponent<P1_DialogueController>().canTalk = false;
+            collision.transform.GetChild(0).gameObject.SetActive(false);
+            collision.GetComponent<P1_DialogueController>().enabled = false;
         }
     }
 
