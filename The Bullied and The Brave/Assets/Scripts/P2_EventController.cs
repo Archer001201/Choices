@@ -27,7 +27,8 @@ public class P2_EventController : MonoBehaviour
         if (collision.gameObject.CompareTag("Event"))
         {
             collision.GetComponent<P2_DialogueController>().enabled = true;
-            collision.GetComponent<P2_DialogueController>().canTalk = true;
+            if (collision.GetComponent<P2_DialogueController>().dialogueList.Count != 0)
+                collision.GetComponent<P2_DialogueController>().canTalk = true;
         }
     }
 
