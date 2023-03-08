@@ -12,7 +12,7 @@ namespace Choices.Dialogue
 {
     //[RequireComponent(typeof(NPCMovement))]
     [RequireComponent(typeof(BoxCollider2D))]
-    public class DialogueController : MonoBehaviour
+    public class P1_DialogueController : MonoBehaviour
     {
         //private NPCMovement npc => GetComponent<NPCMovement>();
         public UnityEvent OnFinishEvent;
