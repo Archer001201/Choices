@@ -1639,6 +1639,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   canTalk: 0
+  isTalking: 0
 --- !u!61 &1167120165
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1726,6 +1727,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   canTalk: 0
+  isTalking: 0
 --- !u!224 &1167120168
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2084,6 +2086,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   canTalk: 0
+  isTalking: 0
 --- !u!114 &1667237564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2101,6 +2104,7 @@ MonoBehaviour:
       m_Calls: []
   dialogueList: []
   canTalk: 0
+  isTalking: 0
 --- !u!61 &1667237565
 BoxCollider2D:
   m_ObjectHideFlags: 0

@@ -2,8 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using Choices.Dialogue;
 
-public class PlayerController : MonoBehaviourPun
+public class P1_Controller : MonoBehaviourPun
 {
     public float speed;
 
@@ -13,12 +14,14 @@ public class PlayerController : MonoBehaviourPun
 
     private Animator anim;
     private GameObject dialogguePanel;
+    GameObject eventObject;
 
     private void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         dialogguePanel = GameObject.Find("Dialouge Canvas").transform.GetChild(0).gameObject;
+        eventObject = null;
     }
 
     private void FixedUpdate()
@@ -31,6 +34,13 @@ public class PlayerController : MonoBehaviourPun
         if (!photonView.IsMine && PhotonNetwork.IsConnected)
             return;
         if (!dialogguePanel.activeSelf) PlayerInput();
+
+        if (eventObject != null && eventObject.CompareTag("Event") && eventObject.GetComponent<P1_DialogueController>().canTalk
+            && Input.GetKeyDown(KeyCode.Space) && !eventObject.GetComponent<P1_DialogueController>().isTalking)
+        {
+            StartCoroutine(eventObject.GetComponent<P1_DialogueController>().DialogueRoutine());
+        }
+
         switchAnim();
     }
 
@@ -91,5 +101,15 @@ public class PlayerController : MonoBehaviourPun
             anim.SetBool("Down", false);
             anim.SetBool("Up", false);
         }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        eventObject = collision.gameObject;
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        eventObject = null;
     }
 }

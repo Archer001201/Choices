@@ -21,7 +21,7 @@ namespace Choices.Dialogue
         private Stack<DialoguePiece> dailogueStack;
 
         public bool canTalk;
-        private bool isTalking;
+        public bool isTalking;
         private GameObject uiSign;
         private void Awake()
         {
@@ -33,10 +33,10 @@ namespace Choices.Dialogue
         {
             uiSign.SetActive(canTalk);
 
-            if (canTalk & Input.GetKeyDown(KeyCode.Space) && !isTalking)
-            {
-                StartCoroutine(DialogueRoutine());
-            }
+            //if (canTalk & Input.GetKeyDown(KeyCode.Space) && !isTalking)
+            //{
+            //    StartCoroutine(DialogueRoutine());
+            //}
         }
 
         /// <summary>
@@ -52,7 +52,7 @@ namespace Choices.Dialogue
             }
         }
 
-        private IEnumerator DialogueRoutine()
+        public IEnumerator DialogueRoutine()
         {
             isTalking = true;
             if (dailogueStack.TryPop(out DialoguePiece result))
