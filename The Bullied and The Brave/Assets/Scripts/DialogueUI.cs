@@ -15,9 +15,9 @@ public class DialogueUI : MonoBehaviour
 
     public Text dialogueText;
 
-    public Image faceLeft, faceRight;
+    public Image characterFace;
 
-    public TextMeshProUGUI nameLeft, nameRight;
+    public TextMeshProUGUI characterName;
 
     private void OnEnable()
     {
@@ -47,30 +47,16 @@ public class DialogueUI : MonoBehaviour
 
             if (piece.name != string.Empty)
             {
-                faceLeft.gameObject.SetActive(true);
-                faceRight.gameObject.SetActive(true);
-                
-                if (piece.onLeft)
-                {
-                    faceLeft.gameObject.transform.localScale = new Vector3(-1.25f, 1.25f, 1);
-                    faceRight.gameObject.transform.localScale = new Vector3(1, 1, 1);
-                    faceLeft.sprite = piece.faceImage;
-                    nameLeft.text = piece.name;
-                }
-                else
-                {
-                    faceLeft.gameObject.transform.localScale = new Vector3(-1, 1, 1);
-                    faceRight.gameObject.transform.localScale = new Vector3(1.25f, 1.25f, 1);
-                    faceRight.sprite = piece.faceImage;
-                    nameRight.text = piece.name;
-                }
+                //faceLeft.gameObject.SetActive(true);
+                //faceRight.gameObject.SetActive(true);
+                //characterFace.gameObject.SetActive(true);
+                characterFace.sprite = piece.faceImage;
+                characterName.text = piece.name;  
             }
             else
             {
-                faceLeft.gameObject.SetActive(false);
-                faceRight.gameObject.SetActive(false);
-                nameLeft.gameObject.SetActive(false);
-                nameRight.gameObject.SetActive(false);
+                characterFace.gameObject.SetActive(false);
+                characterName.gameObject.SetActive(false);
             }
             yield return dialogueText.DOText(piece.dialogueText, 1f).WaitForCompletion();
 

@@ -8,7 +8,7 @@ namespace Choices.Dialogue
     {
         [Header("Dialogue Details")]
         public Sprite faceImage;
-        public bool onLeft;
+        //public bool onLeft;
         public string name;
         [TextArea]
         public string dialogueText;
