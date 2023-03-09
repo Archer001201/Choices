@@ -1589,7 +1589,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167120161}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 712ea66b59ed44421b76d99e100fd0fb, type: 3}
   m_Name: 
@@ -1699,7 +1699,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1167120161}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8f2969569c6149118c2c5dec1e880a4, type: 3}
   m_Name: 
@@ -1711,7 +1711,7 @@ MonoBehaviour:
   - faceImage: {fileID: -1111962993, guid: 6f45b9d8b442d40d58898b8f69a03071, type: 3}
     onLeft: 0
     name: aaa
-    dialogueText: aaaaaaa
+    dialogueText: 1111111111
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -1720,7 +1720,7 @@ MonoBehaviour:
   - faceImage: {fileID: -318452301, guid: f1b143b429199482289f0758dba8834a, type: 3}
     onLeft: 1
     name: bbb
-    dialogueText: bbbbb
+    dialogueText: 22222222
     hasToPause: 0
     isDone: 0
     afterTalkEvent:
@@ -2058,7 +2058,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667237561}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f8f2969569c6149118c2c5dec1e880a4, type: 3}
   m_Name: 
@@ -2094,7 +2094,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1667237561}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 712ea66b59ed44421b76d99e100fd0fb, type: 3}
   m_Name: 

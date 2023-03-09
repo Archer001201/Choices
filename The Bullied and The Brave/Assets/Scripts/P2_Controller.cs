@@ -106,10 +106,24 @@ public class P2_Controller : MonoBehaviourPun
     private void OnTriggerEnter2D(Collider2D collision)
     {
         eventObject = collision.gameObject;
+
+        if (collision.gameObject.CompareTag("Event"))
+        {
+            //collision.GetComponent<P2_DialogueController>().enabled = true;
+            if (collision.GetComponent<P2_DialogueController>().dialogueList.Count != 0)
+                collision.GetComponent<P2_DialogueController>().canTalk = true;
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
         eventObject = null;
+
+        if (collision.gameObject.CompareTag("Event"))
+        {
+            collision.GetComponent<P2_DialogueController>().canTalk = false;
+            collision.transform.GetChild(1).gameObject.SetActive(false);
+            //collision.GetComponent<P2_DialogueController>().enabled = false;
+        }
     }
 }
