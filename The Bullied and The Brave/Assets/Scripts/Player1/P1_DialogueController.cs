@@ -32,6 +32,7 @@ namespace Choices.Dialogue
         private void Update()
         {
             uiSign.SetActive(canTalk);
+            
 
             //if (canTalk && Input.GetKeyDown(KeyCode.Space) && !isTalking)
             //{
@@ -59,6 +60,7 @@ namespace Choices.Dialogue
             {
                 //传到UI显示对话
                 EventHandler.CallShowDialogueEvent(result);
+                if (result.afterTalkEvent != null) result.afterTalkEvent.Invoke();
                 
                 yield return new WaitUntil(() => result.isDone);
                 isTalking = false;
