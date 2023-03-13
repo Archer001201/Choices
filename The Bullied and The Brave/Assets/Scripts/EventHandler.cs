@@ -11,4 +11,10 @@ public class EventHandler
     {
         ShowDialogueEvent?.Invoke(piece);
     }
+
+    public static event Action<string, Vector3> TransitionEvent;
+    public static void CallTransitionEvent(string sceneName, Vector3 pos)
+    {
+        TransitionEvent?.Invoke(sceneName, pos);
+    }
 }

@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
+using Choices.Transition;
 
 public class Launcher : MonoBehaviourPunCallbacks
 {
+    [SerializeField] private GameObject transitionManager;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -28,6 +31,10 @@ public class Launcher : MonoBehaviourPunCallbacks
         if (PhotonNetwork.CurrentRoom.PlayerCount == 1)
             PhotonNetwork.Instantiate("Player_1", new Vector3(0, 0, 0), Quaternion.identity, 0);
         else if (PhotonNetwork.CurrentRoom.PlayerCount == 2)
+        {
             PhotonNetwork.Instantiate("Player_2", new Vector3(5, 0, 0), Quaternion.identity, 0);
+            transitionManager.GetComponent<TransitionManager>().enabled = true;
+        }
+            
     }
 }
