@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6792453, g: 0.6792453, b: 0.6792453, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -873,6 +873,7 @@ GameObject:
   - component: {fileID: 619655125}
   - component: {fileID: 619655124}
   - component: {fileID: 619655126}
+  - component: {fileID: 619655127}
   m_Layer: 5
   m_Name: Choice Frame
   m_TagString: Untagged
@@ -967,6 +968,19 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!114 &619655127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 619655122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9920dacc8699d4e75a71e37678886db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  optionAmount: 0
 --- !u!1 &626194855
 GameObject:
   m_ObjectHideFlags: 0
@@ -2019,11 +2033,19 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1864609017}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1864609017}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1864609017}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
@@ -2035,12 +2057,20 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: openChoiceUI
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: openChoiceUI
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: select
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -2051,11 +2081,19 @@ PrefabInstance:
       value: ChoiceHandler, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: ChoiceHandler, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
