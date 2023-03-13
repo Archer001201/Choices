@@ -7,19 +7,20 @@ using UnityEngine.UI;
 public class ChoiceHandler : MonoBehaviour
 {
     public string[] choices;
+    public int[] braveChanges;
     [SerializeField] private GameObject choiceUI;
     private int index;
 
     // Start is called before the first frame update
     void Start()
     {
-        index = 0;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 
     public void openChoiceUI()
@@ -40,7 +41,6 @@ public class ChoiceHandler : MonoBehaviour
             }
 
             choiceUI.GetComponent<ChoiceSelection>().optionAmount = choices.Length - 1;
-        }
-        
+        } 
     }
 }

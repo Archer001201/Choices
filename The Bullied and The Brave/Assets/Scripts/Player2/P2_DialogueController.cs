@@ -59,6 +59,7 @@ namespace Choices.Dialogue
             {
                 //传到UI显示对话
                 EventHandler.CallShowDialogueEvent(result);
+                if (result.afterTalkEvent != null) result.afterTalkEvent.Invoke();
 
                 yield return new WaitUntil(() => result.isDone);
                 isTalking = false;

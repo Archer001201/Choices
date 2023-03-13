@@ -6,10 +6,11 @@ using UnityEngine.UI;
 
 public class ChoiceSelection : MonoBehaviour
 {
-    private int index;
+    public int index;
     public int optionAmount;
+
     // Start is called before the first frame update
-    void Start()
+    private void Awake()
     {
         index = 0;
     }
@@ -32,6 +33,9 @@ public class ChoiceSelection : MonoBehaviour
             if (i == index) transform.GetChild(i).GetComponent<Image>().color = new Color(0.7f, 0.7f, 0.7f);
             else transform.GetChild(i).GetComponent<Image>().color = new Color(1,1,1);
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.Space)){
+            gameObject.SetActive(false);
+        }
     }
 }

@@ -15,6 +15,7 @@ public class P1_Controller : MonoBehaviourPun
 
     private Animator anim;
     private GameObject dialogguePanel;
+    //private GameObject choiceUI;
     GameObject eventObject;
 
     private void Awake()
@@ -22,6 +23,7 @@ public class P1_Controller : MonoBehaviourPun
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         dialogguePanel = GameObject.Find("Dialouge Canvas").transform.GetChild(0).gameObject;
+        //choiceUI = GameObject.Find("Dialouge Canvas").transform.GetChild(1).gameObject;
         eventObject = null;
     }
 
