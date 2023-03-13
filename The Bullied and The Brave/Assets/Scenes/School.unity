@@ -442,6 +442,302 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 213986345}
   m_CullTransparentMesh: 1
+--- !u!1001 &226148727
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1524220935}
+    m_Modifications:
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[0].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[2].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[0].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[2].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[0].dialogueText
+      value: 'My name is Ming, and I transferred to this high school last week because
+        of my parents'' work. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].dialogueText
+      value: 'The atmosphere in the class is somewhat strange, and I can''t quite
+        put my finger on it, '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[2].dialogueText
+      value: but it seems like there's always a boy who is being pushed to the forefront
+        of ridicule.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].dialogueText
+      value: 'In some ways, we are similar: average grades, average looks, and introverted
+        personalities. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].dialogueText
+      value: 'I didn''t make any close friends at my previous school, and with frequent
+        transfers, '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].dialogueText
+      value: 'I didn''t have much attachment to my old school or any expectations
+        for my new one. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].dialogueText
+      value: I don't know when I will transfer again, but I hope to smoothly navigate
+        through my time at this school.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[0].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[2].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].name
+      value: Ming
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[0].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[2].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].faceImage
+      value: 
+      objectReference: {fileID: 412702885, guid: d530a3b939144430fbc6d11dd3dafb37, type: 3}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[0].dialogueText
+      value: 'My name is Ming, and I transferred to this high school last week because
+        of my parents'' work. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[1].dialogueText
+      value: 'The atmosphere in the class is somewhat strange, and I can''t quite
+        put my finger on it, '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[2].dialogueText
+      value: but it seems like there's always a boy who is being pushed to the forefront
+        of ridicule.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].dialogueText
+      value: 'In some ways, we are similar: average grades, average looks, and introverted
+        personalities. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].dialogueText
+      value: 'I didn''t make any close friends at my previous school, and with frequent
+        transfers, '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].dialogueText
+      value: 'I didn''t have much attachment to my old school or any expectations
+        for my new one. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038675, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].dialogueText
+      value: I don't know when I will transfer again, but I hope to smoothly navigate
+        through my time at this school.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038677, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_Name
+      value: Event002
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038678, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -3372412, guid: 2c0a998fba0a44733b1ee9a19115d269, type: 3}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_Pivot.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0.6875
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0.9583333
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 41ae753c228374505b25e980757d0269, type: 3}
+--- !u!224 &226148728 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
+  m_PrefabInstance: {fileID: 226148727}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &457974687
 GameObject:
   m_ObjectHideFlags: 0
@@ -591,7 +887,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1989,21 +2285,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1524220935}
     m_Modifications:
+    - target: {fileID: 2192026834676643751, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.size
-      value: 3
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].name
-      value: player
+      value: Ye
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[1].name
-      value: ads
+      value: Ye
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[2].name
-      value: ads
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[7].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[8].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[9].name
+      value: Ye
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[10].name
+      value: Ye
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].faceImage
@@ -2018,16 +2350,89 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[7].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[8].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[9].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[10].faceImage
+      value: 
+      objectReference: {fileID: 1651942811, guid: 10e84076152f141e6873e30ab0ce365a, type: 3}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].dialogueText
-      value: 11111
+      value: 'My name is Ye, and I am a student in high school. I entered this school
+        a year ago, which isn''t that well-known, but it doesn''t matter to me. '
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[1].dialogueText
-      value: ddasdasd
+      value: 'A new school is just another layer of hell for me. '
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[2].dialogueText
-      value: 0000000
+      value: I still haven't made any friends, but maybe I have one? Although I don't
+        know if I can call him a friend.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[3].dialogueText
+      value: I know I'm different from other boys. I believe that boys can also be
+        refined and beautiful.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[4].dialogueText
+      value: 'I don''t like noise or toy guns, and I enjoy sitting quietly. I also
+        like the dolls that girls play with. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[5].dialogueText
+      value: 'But this world tells me that I shouldn''t like these things, even though
+        I haven''t hurt anyone. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[6].dialogueText
+      value: I have even questioned myself and wondered if my differences are because
+        I'm sick.
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[7].dialogueText
+      value: 'My mother took me to see a psychologist, and their words were a rare
+        ray of light in my dark school life. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[8].dialogueText
+      value: She gave me a cute stuffed pendant and said,
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[9].dialogueText
+      value: '"You have done nothing wrong. The people who think you are abnormal
+        are the ones who are truly abnormal." '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
+      propertyPath: dialogueList.Array.data[10].dialogueText
+      value: I hung the pendant on my school bag, and every time I doubt myself or
+        feel engulfed by darkness, it always emits a warm and comforting light.
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[0].afterTalkEvent.m_PersistentCalls.m_Calls.Array.size
@@ -2035,7 +2440,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[1].afterTalkEvent.m_PersistentCalls.m_Calls.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038672, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: dialogueList.Array.data[2].afterTalkEvent.m_PersistentCalls.m_Calls.Array.size
@@ -2143,7 +2548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038677, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_Name
-      value: Event000
+      value: Event001
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038678, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_Size.x
@@ -2156,7 +2561,7 @@ PrefabInstance:
     - target: {fileID: 2192026834720038678, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1537875233, guid: 7b329d5e3b1f14297a84cdad36b8d4ed, type: 3}
+      objectReference: {fileID: -3372412, guid: 2c0a998fba0a44733b1ee9a19115d269, type: 3}
     - target: {fileID: 2192026834720038678, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_WasSpriteAssigned
       value: 1
@@ -2171,7 +2576,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_RootOrder
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_AnchorMax.x
@@ -2227,11 +2632,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 11.73
+      value: -3
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -4.42
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2192026834720038684, guid: 41ae753c228374505b25e980757d0269, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -2339,10 +2744,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1524220934}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.39, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 226148728}
   - {fileID: 918070294}
   m_Father: {fileID: 0}
   m_RootOrder: 6
@@ -2460,7 +2866,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 55.35083, y: 0}
-  m_SizeDelta: {x: 600, y: 150}
+  m_SizeDelta: {x: 600, y: 120}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1604370346
 CanvasRenderer:
@@ -2497,7 +2903,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 3
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
